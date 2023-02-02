@@ -1,0 +1,30 @@
+{
+  "name": "jamahadrummerdotcom",
+  "version": "1.0.0",
+  "description": "Public Repo for my personal website jamahadrummer.com.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamahadrummer/jamahadrummerdotcom.git"
+  },
+  "author": "Daniel Jama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamahadrummer/jamahadrummerdotcom/issues"
+  },
+  "homepage": "https://github.com/jamahadrummer/jamahadrummerdotcom#readme",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.8.3",
+    "@parcel/transformer-webmanifest": "^2.8.3",
+    "eslint": "^8.33.0",
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4"
+  }
+}
