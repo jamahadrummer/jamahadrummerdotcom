@@ -77,7 +77,8 @@ h6 {
 */
 
 body {
-	background-color: #4d5359;
+	background-color: #1e1e2e;
+    color: #cdd6f4;
 	font-family: 'Font Awesome 5 Regular', sans-serif;
     font-size: x-large;
 	display: flex;
@@ -89,7 +90,9 @@ body {
 
 button {
 	border: 0;
-	background: none;
+    color: inherit;
+	/* background: none; */
+    background-color: #313244;
 	box-shadow: none;
 	border-radius: 6px;
 }
@@ -99,6 +102,12 @@ a {
 	text-decoration: inherit;
 }
 
+
+body div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .header {
 	display: flex;
 	justify-content: center;
