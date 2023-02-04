@@ -1,6 +1,6 @@
 {
   "name": "jamahadrummerdotcom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Public Repo for my personal website jamahadrummer.com.",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
