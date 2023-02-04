@@ -2,7 +2,6 @@
   "name": "jamahadrummerdotcom",
   "version": "1.0.1",
   "description": "Public Repo for my personal website jamahadrummer.com.",
-  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.html",
