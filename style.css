@@ -4,14 +4,6 @@
 	https://www.joshwcomeau.com/css/custom-css-reset/
 */
 /*
-	1. Use a more-intuitive box-sizing model.
-*/
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-}
-/*
 	2. Remove default margin
   */
 * {
@@ -78,21 +70,21 @@ h6 {
 
 body {
 	background-color: #1e1e2e;
-    color: #cdd6f4;
+	color: #cdd6f4;
 	font-family: 'Font Awesome 5 Regular', sans-serif;
-    font-size: x-large;
+	font-size: x-large;
 	display: flex;
-    justify-content: center;
-    align-items: center;
+	justify-content: center;
+	align-items: center;
 	min-width: 1050px;
 	margin: 0;
 }
 
 button {
 	border: 0;
-    color: inherit;
+	color: inherit;
 	/* background: none; */
-    background-color: #313244;
+	background-color: #313244;
 	box-shadow: none;
 	border-radius: 6px;
 }
@@ -102,278 +94,8 @@ a {
 	text-decoration: inherit;
 }
 
-
 body div {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.header {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	/* border: 5px solid white; */
-	min-width: 1050px;
-	background-color: #8d111b;
-	font-family: 'Font Awesome 5 Regular', sans-serif;
-}
-
-.hbox {
-	display: flex;
-	justify-content: space-between;
-	width: 1200px;
-	margin: 20px 0px;
-}
-
-.headerLeft {
-	color: #f0faf8;
-	font-size: 48px;
-	font-weight: bolder;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	font-family: 'Font Awesome 5 Regular', sans-serif;
-}
-
-.headerRight {
-	/* margin-right: 16px; */
-	display: flex;
-	color: #e5e7eb;
-	font-size: 18px;
-	/* display: flex;
-	flex-direction: column;
-	justify-content: space-around; */
-}
-
-.header ul {
-	display: flex;
-	gap: 16px;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-.content1 {
-	display: flex;
-	justify-content: space-around;
-	margin: 50px 0px;
-	min-width: 1050px;
-}
-.content1box {
-	display: flex;
-	flex-direction: column;
-	gap: 5px;
-	justify-content: space-around;
-}
-
-.content1title {
-	text-align: center;
-	font-size: 32px;
-	font-weight: bolder;
-	color: #f9faf8;
-}
-
-.content1photo {
-	max-width: 900px;
-}
-
-.content1third {
-	font-size: 24px;
-	color: #e5e7eb;
-}
-
-.content1box2 {
-	display: flex;
-	width: 500px;
-	justify-content: center;
-	align-items: center;
-}
-
-.signUp {
-	background-color: #3882f6;
-	padding: 4px 30px;
-	color: #e5e7eb;
-	font-weight: bold;
-}
-
-.gradient1 {
-	height: 100;
-	width: 800;
-	/* padding: 16px; */
-}
-
-.content2 {
-	display: flex;
-	margin: 0px;
-	min-width: 1050px;
-	flex-direction: column;
-	align-content: space-around;
-	background-color: #d1d1d1;
-	/* border: 5px solid red; */
-	/* padding: 0 500px; */
-	/* gap: 40px; */
-	font-size: 42px;
-	font-weight: bold;
-}
-
-.content2title {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	min-width: 1050px;
-	padding: 20px 0px;
-}
-
-.icons {
-	display: flex;
-	justify-content: center;
-	gap: 100px;
-	padding: 20px 0 100px 0;
-}
-
-.iconContainer {
-	display: inherit;
-	flex-direction: column;
-}
-
-.iconSquare {
-	display: inherit;
-	height: 150px;
-	width: 150px;
-	background-color: black;
-	border: 5px solid black;
-	border-radius: 20px;
-	justify-content: center;
-	align-items: center;
-}
-
-.iconBtn {
-	width: 140px;
-}
-
-.iconText {
-	font-size: 16px;
-	text-align: center;
-	padding: 10px 0px;
-}
-
-.icons .box1 {
-	display: flex;
-	flex-direction: column;
-	font-size: 18px;
-	text-align: center;
-	width: 150px;
-}
-
-.iconSquare:hover {
-	transform: scale(1.1);
-}
-
-.iconSquare:active {
-	transform: scale(0.9);
-}
-
-.iconBtn img {
-	filter: invert(95%) sepia(0%) saturate(343%) hue-rotate(219deg)
-		brightness(92%) contrast(86%);
-}
-
-/* .iconSquare button {
-	height: 130px;
-	width: 130px;
-} */
-
-.box div {
-	display: inherit;
-	font-size: 16px;
-	text-align: center;
-}
-
-.content3 {
-	background-color: #e5e7eb;
-	display: flex;
-	justify-content: space-around;
-	flex-direction: column;
-	min-width: 1050px;
-	text-align: center;
-	font-size: 36px;
-	font-style: italic;
-	color: #1f2937;
-	padding: 100px 0px;
-}
-
-.c3box1 {
-	display: inherit;
-	justify-content: center;
-	padding: 20px 0px;
-}
-
-.bodyText {
-	display: inherit;
-	width: 600px;
-}
-
-.c3box2 {
-	display: flex;
-	justify-content: center;
-}
-
-.attributeText {
-	font-weight: bold;
-	text-align: right;
-	width: 800px;
-}
-
-.content4 {
-	background-color: white;
-	min-width: 1050px;
-	display: flex;
-	justify-content: center;
-	/* border: 5px solid white; */
-}
-
-.c4box {
-	background-color: #3882f6;
-	margin: 100px 0px;
-	padding: 40px 80px;
-	display: flex;
-	border-radius: 10px;
-	gap: 200px;
-}
-
-.c4left {
-	color: #f9faf8;
-}
-
-.c4left1 {
-	font-size: 24px;
-	font-weight: bold;
-}
-.c4left2 {
-	color: #f0faf8;
-	font-size: 18px;
-}
-
-.c4Right {
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	/* padding: 5px 25px; */
-	border: 3px solid white;
-	border-radius: 10px;
-}
-
-.c4Right button {
-	padding: 10px 40px;
-	color: #e5e7eb;
-	font-weight: bold;
-}
-
-.footer {
-	display: flex;
-	justify-content: space-around;
-	padding: 50px 0px;
-	font-size: 18px;
-	color: #e5e7eb;
+	gap: 10px;
 }
