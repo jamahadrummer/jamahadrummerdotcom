@@ -2,6 +2,8 @@ const btn1 = document.getElementById('btn1');
 const btn2 = document.getElementById('btn2');
 const btn3 = document.getElementById('btn3');
 const btn4 = document.getElementById('btn4');
+const btn5 = document.getElementById('btn4');
+const btn6 = document.getElementById('btn4');
 
 const pageTurn = (pageName) => {
     location.href = pageName;
@@ -22,4 +24,10 @@ btn3.addEventListener('click', () => {
 })
 btn4.addEventListener('click', () => {
     extLink('https://www.github.com/jamahadrummer')
+})
+btn5.addEventListener('click', () => {
+    extLink('https://www.flickr.com/jamahadrummer')
+})
+btn6.addEventListener('click', () => {
+    extLink('https://www.instagram.com/jamahadrummer')
 })
