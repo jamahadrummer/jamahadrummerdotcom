@@ -93,8 +93,11 @@ button {
 	color: inherit;
 	/* background: none; */
 	background-color: #313244;
-	box-shadow: none;
 	border-radius: 6px;
+}
+
+button:hover {
+	box-shadow: 3px 3px;
 }
 
 a {
