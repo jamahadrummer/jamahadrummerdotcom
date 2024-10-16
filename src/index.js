@@ -4,6 +4,7 @@ const btn3 = document.getElementById('btn3');
 const btn4 = document.getElementById('btn4');
 const btn5 = document.getElementById('btn5');
 const btn6 = document.getElementById('btn6');
+const btn7 = document.getElementById('btn7');
 
 const pageTurn = (pageName) => {
     location.href = pageName;
@@ -20,14 +21,17 @@ btn2.addEventListener('click', () => {
     extLink('https://www.danieljama.com')
 })
 btn3.addEventListener('click', () => {
-    extLink('https://infosec.exchange/@jamahadrummer')
+    extLink('https://bsky.app/profile/jamahadrummer.com')
 })
 btn4.addEventListener('click', () => {
-    extLink('https://www.github.com/jamahadrummer')
+    extLink('https://infosec.exchange/@jamahadrummer')
 })
 btn5.addEventListener('click', () => {
-    extLink('https://www.flickr.com/jamahadrummer')
+    extLink('https://www.github.com/jamahadrummer')
 })
 btn6.addEventListener('click', () => {
+    extLink('https://www.flickr.com/jamahadrummer')
+})
+btn7.addEventListener('click', () => {
     extLink('https://www.instagram.com/jamahadrummer')
 })

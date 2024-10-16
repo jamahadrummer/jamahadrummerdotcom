@@ -1,6 +1,6 @@
 {
   "name": "jamahadrummerdotcom",
-  "version": "1.0.1",
+  "version": "2.0.1",
   "description": "Public Repo for my personal website jamahadrummer.com.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
