@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html --public-url ./"
+    "build": "parcel build ./src/index.html --public-url ./",
+    "host": "scp -r ./dist/* theTardis-v23.mayflower.local:/mnt/user/appdata/jamahadrummerdotcom/www/jamahadrummerdotcom/"
   },
   "repository": {
     "type": "git",
@@ -18,10 +19,10 @@
   },
   "homepage": "https://github.com/jamahadrummer/jamahadrummerdotcom#readme",
   "devDependencies": {
-		"@parcel/packager-raw-url": "^2.8.3",
-		"@parcel/transformer-webmanifest": "^2.8.3",
-		"eslint": "^8.0.1",
-		"parcel": "^2.8.3"
+    "@parcel/packager-raw-url": "latest",
+    "@parcel/transformer-webmanifest": "latest",
+    "eslint": "^9.12.0",
+    "parcel": "latest"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4"
