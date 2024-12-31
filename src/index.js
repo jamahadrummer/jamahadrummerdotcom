@@ -21,10 +21,10 @@ btn2.addEventListener('click', () => {
     extLink('https://www.danieljama.com')
 })
 btn3.addEventListener('click', () => {
-    extLink('https://bsky.app/profile/jamahadrummer.com')
+    extLink('https://infosec.exchange/@jamahadrummer')
 })
 btn4.addEventListener('click', () => {
-    extLink('https://infosec.exchange/@jamahadrummer')
+    extLink('https://bsky.app/profile/jamahadrummer.com')
 })
 btn5.addEventListener('click', () => {
     extLink('https://www.github.com/jamahadrummer')
